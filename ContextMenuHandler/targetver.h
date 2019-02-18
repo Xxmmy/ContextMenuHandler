@@ -1,0 +1,14 @@
+#pragma once
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+#define NTDDI_VERSION		0x06010000		// Windows 7
+#define WINVER				0x0601			// Windows 7
+#define _WIN32_WINDOWS		0x0601			// Windows 7
+#define _WIN32_WINNT		0x0601			// Windows 7
+#define _WIN32_IE			0x0A00			// Internet Explorer 11
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <winsdkver.h>
+#include <sdkddkver.h>
