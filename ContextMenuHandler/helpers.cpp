@@ -194,7 +194,7 @@ std::wstring GetEscapedArgument(std::wstring argument)
 		size_t index{ argument.length() - 1 };
 		bool quote{ true };
 
-		while (index != std::wstring::npos)
+		while (index != argument.npos)
 		{
 			if (quote && argument[index] == BACKSLASH)
 			{
