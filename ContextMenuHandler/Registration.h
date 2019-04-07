@@ -2,6 +2,7 @@
 
 #include <olectl.h>
 #include <strsafe.h>
+#include <string>
 #include <vector>
 #include <memory>
 
